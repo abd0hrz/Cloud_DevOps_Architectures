@@ -2,6 +2,8 @@
 
 This repository contains a custom-designed and detailed **Microservices Architecture** diagram that I created, illustrating the structure and flow of a modern web application using cloud-native components and microservices principles.
 
+![microservices_architecture_app](microservices_architecture_app.png)
+
 ## 🔢 Numbered Components
 
 Each component in the architecture is clearly numbered and described below:
