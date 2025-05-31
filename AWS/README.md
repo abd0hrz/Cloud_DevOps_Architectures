@@ -5,27 +5,27 @@ This repository contains a collection of custom-designed and detailed **AWS** ar
 ## AWS Basic Infrastructure
 Basic AWS architecture with EC2, RDS, S3, and CloudFlare CDN
 
-![aws-basic-infra](aws-basic-infra.png)
+![aws-basic-infra](images/aws-basic-infra.png)
 
 ## VPC Custom CIDR Range
 AWS VPC and subnet configuration with CIDR blocks
 
-![VPC-Custom-CIDR-Range](VPC-Custom-CIDR-Range.png)
+![VPC-Custom-CIDR-Range](images/VPC-Custom-CIDR-Range.png)
 
 ## AWS E-commerce Infrastructure
 AWS infrastructure for an e-commerce application with EKS
 
-![AWS-EcomApp-Infra](AWS-EcomAppInfra.png)
+![AWS-EcomApp-Infra](images/AWS-EcomAppInfra.png)
 
 ## AWS Chat Application
 AWS infrastructure for a chat application with EKS and monitoring
 
-![AWS-Infra-Chat-Application](AWS-Infra-Chat-Application.png)
+![AWS-Infra-Chat-Application](images/AWS-Infra-Chat-Application.png)
 
 ## Chat Application with EKS
 Chat application architecture with EKS, MongoDB Atlas, and Jenkins CI/CD
 
-![ChatAPP-EKS](ChatAPP-EKS.png)
+![ChatAPP-EKS](images/ChatAPP-EKS.png)
 
 
 
