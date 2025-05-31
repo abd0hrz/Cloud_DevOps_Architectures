@@ -1,31 +1,28 @@
-# 🧩 Microservices Architecture
+# AWS Architecture
 
-This repository contains a custom-designed and detailed **Microservices Architecture** diagram that I created, illustrating the structure and flow of a modern web application using cloud-native components and microservices principles.
+This repository contains a collection of custom-designed and detailed **AWS** architecture blueprints for various applications and use cases. Each architecture is implemented with best practices in scalability, security, and availability in mind. Whether you're building basic infrastructure, deploying microservices with EKS, or designing a real-time chat platform, you'll find structured and reusable templates here.
 
-## 🔢 Numbered Components
+## AWS Basic Infrastructure
+Basic AWS architecture with EC2, RDS, S3, and CloudFlare CDN
+![aws-basic-infra](aws-basic-infra.png)
 
-Each component in the architecture is clearly numbered and described below:
+## VPC Custom CIDR Range
+AWS VPC and subnet configuration with CIDR blocks
+![VPC-Custom-CIDR-Range](VPC-Custom-CIDR-Range.png)
 
-1. **USER** – Interacting with the web application.  
-2. **WAF (Web Application Firewall)** – Protecting the system from malicious access.  
-3. **Load Balancer** – Distributing traffic across EC2 instances.  
-4. **ASG + EC2 (API SERVER)** – Auto Scaling Group dynamically manages EC2 instances based on traffic.  
-5. **S3** – Object storage for static files, media, and other assets.  
-6. **RDS** – Managed relational database service.  
-7. **Queueing Service (RabbitMQ / Kafka / SQS)** – Manages asynchronous task processing and communication between services.  
-8. **EC2 (Assigners)** – Dedicated instances handling specific backend logic or assignments.  
-9. **Kubernetes Cluster** – Orchestrates containerized services, represented here as multiple T-API pods.  
-10. **Proxy Server** – For secure request routing and load handling.
+## AWS E-commerce Infrastructure
+AWS infrastructure for an e-commerce application with EKS
+![AWS-EcomApp-Infra](AWS-EcomAppInfra.png)
 
-🔒 **Encryption** is applied where needed to ensure data security and compliance.
+## AWS Chat Application
+AWS infrastructure for a chat application with EKS and monitoring
+![AWS-Infra-Chat-Application](AWS-Infra-Chat-Application.png)
 
-## 🧰 Technologies Used
+## Chat Application with EKS
+Chat application architecture with EKS, MongoDB Atlas, and Jenkins CI/CD
+![ChatAPP-EKS](ChatAPP-EKS.png)
 
-- AWS Services: EC2, S3, RDS, ASG, WAF
-- Kubernetes for container orchestration
-- RabbitMQ / Kafka / AWS SQS for message brokering
-- Load Balancing and Proxying
-- Modern API-first microservices design
 
-📌 *This architecture was fully created and designed by me to demonstrate a scalable and secure microservices-based infrastructure.*
+
+
 
