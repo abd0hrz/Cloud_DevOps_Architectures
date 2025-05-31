@@ -1,6 +1,6 @@
 # AWS Architecture
 
-This repository contains a collection of custom-designed and detailed **AWS** architecture blueprints for various applications and use cases. Each architecture is implemented with best practices in scalability, security, and availability in mind. Whether you're building basic infrastructure, deploying microservices with EKS, or designing a real-time chat platform, you'll find structured and reusable templates here.
+This repository offers custom **AWS** architecture blueprints for various use cases—ranging from basic setups to EKS-based microservices and real-time chat apps. Each design follows best practices for scalability, security and availability.
 
 ## AWS Basic Infrastructure
 Basic AWS architecture with EC2, RDS, S3, and CloudFlare CDN
